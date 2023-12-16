@@ -13,6 +13,8 @@
 
         html {
             height: 100%;
+
+            --secondary-text-color: #877AFF;
         }
 
         body {
@@ -33,19 +35,19 @@
 <body style="display: grid; justify-items: center; align-items: center;">
     <div style="display: grid; grid-template-columns: 1fr 1fr;">
         <div
-            style="display: grid; row-gap: 10px; text-align: center; padding: 20px; border-radius: 20px; background:linear-gradient(blue,aqua);color: white;">
+            style="display: grid; row-gap: 10px; text-align: center; padding: 20px; border-radius: 20px; background:linear-gradient(#6743FF,#312CEA);color: white;">
             <div>Your result</div>
             <div style="display: grid; justify-items: center;">
                 <div
-                    style="display: grid; align-items: center; border-radius: 50%; width: 70%; aspect-ratio: 1;background: linear-gradient(blue,black);">
+                    style="display: grid; align-items: center; border-radius: 50%; width: 70%; aspect-ratio: 1;background: linear-gradient(#4D22C9,#4535F0);">
                     <div>
                         <div style="font-size: 3em;">76</div>
-                        <div>of 100</div>
+                        <div style="color: var(--secondary-text-color);">of 100</div>
                     </div>
                 </div>
             </div>
             <div>Great</div>
-            <div>
+            <div style="width: 200px; color: var(--secondary-text-color);">
                 Personal access tokens (classic) function like ordinary OAuth access tokens.
             </div>
         </div>
